@@ -23,10 +23,10 @@ div {
 .header-img {
   height: 100%;
 }
-header ul {
+.header-navigation-list {
   display: flex;
 }
-ul li {
+.header-navigation-list li {
   list-style: none;
 }
 .navigation:not(:last-child){
@@ -36,6 +36,7 @@ li a {
   text-decoration: none;
   font-size: 22px;
 }
+
 .top {
   margin-bottom: 280px;
 }
@@ -95,7 +96,7 @@ li a {
   border-bottom: 1px solid #d7d7d7;
 }
 .news-table td {
-  font-size: 14pt;
+  font-size: 12pt;
   padding: 15px 0;
 }
 .news-icon {
@@ -236,7 +237,7 @@ li a {
 }
 
 .company {
-  margin: 40px 0;
+  margin: 60px 0;
 }
 .company-contents{
   width:800px;
@@ -263,7 +264,7 @@ li a {
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 .footer-image {
   position: relative;
@@ -319,6 +320,7 @@ li a {
 }
 .copyright small {
   position: absolute;
+  font-size: 14px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
